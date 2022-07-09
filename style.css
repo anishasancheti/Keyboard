@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    background: gray;
+}
+.keyboard{
+    background: #bbb;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-top: 35px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
+    font-size: 3vh;
+    border-radius: 10px;
+    border-bottom: 6px solid #999;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.key{
+    background: #444;
+    height: 33px;
+    width: 75px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.one{
+    width: 70px;
+}
+.two{
+    width: 146px;
+}
+.one-half{
+    width: 140px;
+}
+.two-half{
+    width: 190px;
+}
+.last{
+    width: 80px;
+}
+.half{
+    width: 43px;
+}
+.win{
+    width: 100px;
+}
+.bar{
+    width: 390px;
+}
+.key:hover{
+    font-size: 120%;
+    box-shadow: 5px 5px 5px grey;
+}
